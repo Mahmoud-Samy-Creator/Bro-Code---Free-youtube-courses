@@ -1,0 +1,16 @@
+@font-face{
+    src: url(fonts/PlaypenSans-Medium.ttf);
+    font-family: PlaypenSans-Medium;
+}
+
+body{
+    background-color: rgb(135, 193, 244);
+}
+
+pre{
+    color: rgb(25, 31, 55);
+    font-family: "PlaypenSans-Medium";
+    font-size: 18px;
+    font-weight: bold;
+    font-style: italic;
+}

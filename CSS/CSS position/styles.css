@@ -1,0 +1,72 @@
+/*
+=> positions
+    relative: positioned relative to where it normally should be.
+        -> can be positioned from top, buttom, left, right relative to where normally is
+
+    fixed: positioned relative to the viewpoint
+        -> can be positioned from top, buttom, left, right relative to viewpoint
+
+    absolute: positioned related to the nearest ascestor
+
+    sticky: positioned according to scrolling position
+*/
+
+#box_1 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(32, 220, 234);
+    position: relative;
+    /*
+    top: 100px;
+    left: 100px;
+    right: 100px;
+    bottom: 100px;
+    */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+}
+
+#box_2 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(28, 159, 61);
+    position: fixed;
+
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+}
+
+#box_3 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(159, 41, 28);
+    position: absolute;
+
+    top: 0;
+    left: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+}
+
+#box_4 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(214, 245, 13);
+    position: sticky;
+    top: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+}
+

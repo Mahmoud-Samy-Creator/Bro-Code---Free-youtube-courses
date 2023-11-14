@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS overflow</title>
+        <!--over-flow: setting the behavior when
+        the container doesn't fit what's in
+            => over-flow modes
+                    overflow: visible -> nothing
+                    overflow: hidden  -> Can copy the hole element
+                    overflow: clip    -> Can't copy the hole element
+                    overflow: scroll  -> Content scrolling
+                    overflow: auto
+                -->
+        <style>
+            #text_container_1
+            {
+                border: 2px solid black;
+                height: 75px;
+                overflow: hidden;
+            }
+
+            #text_container_2
+            {
+                border: 2px solid black;
+                height: 75px;
+                overflow: clip;
+            }
+
+            #text_container_3
+            {
+                border: 2px solid black;
+                height: 75px;
+                overflow: scroll;
+            }
+
+            #text_container_4
+            {
+                border: 2px solid black;
+                height: 75px;
+                overflow: auto;
+            }
+
+            #text_container_5
+            {
+                border: 2px solid black;
+                height: 75px;
+                overflow: visible;
+            }
+
+        </style>
+    </head>
+    <body>
+        <h4>overflow: hidden;</h4>
+        <div id="text_container_1">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Qui et maiores rerum cupiditate repellendus,
+                asperiores dolor eius perspiciatis inventore esse quas sint,
+                libero aliquam accusamus consequuntur officiis! Nulla,
+                sint eos.
+            </p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Qui et maiores rerum cupiditate repellendus,
+                asperiores dolor eius perspiciatis inventore esse quas sint,
+                libero aliquam accusamus consequuntur officiis! Nulla,
+                sint eos.
+            </p>
+        </div>
+        <hr>
+        <h4>overflow: clip;</h4>
+        <div id="text_container_2">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Qui et maiores rerum cupiditate repellendus,
+                asperiores dolor eius perspiciatis inventore esse quas sint,
+                libero aliquam accusamus consequuntur officiis! Nulla,
+                sint eos.
+            </p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Qui et maiores rerum cupiditate repellendus,
+                asperiores dolor eius perspiciatis inventore esse quas sint,
+                libero aliquam accusamus consequuntur officiis! Nulla,
+                sint eos.
+            </p>
+        </div>
+        <hr>
+        <h4>overflow: scroll;</h4>
+        <div id="text_container_3">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Qui et maiores rerum cupiditate repellendus,
+                asperiores dolor eius perspiciatis inventore esse quas sint,
+                libero aliquam accusamus consequuntur officiis! Nulla,
+                sint eos.
+            </p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Qui et maiores rerum cupiditate repellendus,
+                asperiores dolor eius perspiciatis inventore esse quas sint,
+                libero aliquam accusamus consequuntur officiis! Nulla,
+                sint eos.
+            </p>
+        </div>
+        <hr>
+        <h4>overflow: auto;</h4>
+        <div id="text_container_4">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Qui et maiores rerum cupiditate repellendus,
+                asperiores dolor eius perspiciatis inventore esse quas sint,
+                libero aliquam accusamus consequuntur officiis! Nulla,
+                sint eos.
+            </p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Qui et maiores rerum cupiditate repellendus,
+                asperiores dolor eius perspiciatis inventore esse quas sint,
+                libero aliquam accusamus consequuntur officiis! Nulla,
+                sint eos.
+            </p>
+        </div>
+        <hr>
+
+        <h4>overflow: visible;</h4>
+        <div id="text_container_5">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Qui et maiores rerum cupiditate repellendus,
+                asperiores dolor eius perspiciatis inventore esse quas sint,
+                libero aliquam accusamus consequuntur officiis! Nulla,
+                sint eos.
+            </p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Qui et maiores rerum cupiditate repellendus,
+                asperiores dolor eius perspiciatis inventore esse quas sint,
+                libero aliquam accusamus consequuntur officiis! Nulla,
+                sint eos.
+            </p>
+        </div>
+    </body>
+</html>

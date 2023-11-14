@@ -1,0 +1,13 @@
+body {
+    background-image: url(../images/jean-nature-saint-wallpapers-background-desktop-wallpaper-images.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    /*For page centering*/
+    background-size: cover;
+    /*For covering entire page*/
+}
+
+p, h1{
+    color: white;
+}
