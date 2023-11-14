@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form in html</title>
+    </head>
+    <body>
+        <!-- `form` element to make documents or login form webpages-->
+        <!-- `label` element to make a label demonistates the concept-->
+        <!-- `input` element to make a user input according needs-->
+        <!-- The main idea is to serialize the user input to a backend server using PHP language-->
+        <form>
+            <label for = "User name">User name: </label>
+            <input type="text" id="user" placeholder="Enter your username"><br>
+            <hr>
+
+            <label for = "First name">First name: </label>
+            <input type="text" id="first_name" placeholder="Enter your first name"><br>
+            <hr>
+            
+            <label for = "Last name">Last name: </label>
+            <input type="text" id="last_name" placeholder="Enter your last name"><br>
+            <hr>
+            
+            <label for = "Email">Email: </label>
+            <input type="email" id="email" placeholder="Enter your email"><br>
+            <hr>
+
+            <label for = "password">Password: </label>
+            <input type="password" id="password" placeholder="Enter your password"><br>
+            <hr>
+
+            <label for = "Phone">Phone number: </label>
+            <input type="tel" id="tel" placeholder="Format 123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"><br>
+            <hr>
+
+            <label for = "bday">Birthday date: </label>
+            <input type="date" id = "bday" placeholder="birthdat date"><br>
+            <hr>
+
+            <label for="number" id = "quantity">quantity: </label>
+            <input type="number" min="0" max="99"><br>
+            <hr>
+
+            <label for="Mr." >Mr. </label>
+            <input type="radio" id="Mr." value="Mr." name="title">
+
+            <label for="Mrs.">Mrs. </label>
+            <input type="radio" id="Mrs." value="Mrs." name="title">
+            
+            <label for="Phd.">Phd. </label>
+            <input type="radio" id="Mrs." value="Phd." name="title">
+            <hr>
+
+            <label for="payment">payment</label>
+            <select id = "payment">
+                <option value="visa">visa</option>
+                <option value="mastercard">mastercard</option>
+                <option value="giftcart">giftcard</option>
+            </select><br>
+            <hr>
+
+            <label for="subscribe">subscribe </label>
+            <input type="checkbox" id="subscribe"><br>
+            <hr>
+
+            <label for="text_box">comment: </label><br>
+            <textarea id="text_box"
+            rows="3" cols="25"
+            placeholder="Enter your comment">
+            </textarea><br>
+            <hr>
+
+            <label for="file">File: </label>
+            <input type="file"><br>
+            <hr>
+            <input type="reset"><br>
+            <input type="submit">
+        </form>
+    </body>
+</html>
